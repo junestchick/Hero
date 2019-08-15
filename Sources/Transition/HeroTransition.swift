@@ -53,6 +53,7 @@ open class HeroTransition: NSObject {
 
   public var defaultAnimation: HeroDefaultAnimationType = .auto
   public var containerColor: UIColor = .black
+  public var containerBackground: UIImage? = nil
   public var isUserInteractionEnabled = false
   public var viewOrderingStrategy: HeroViewOrderingStrategy = .auto
   public var defaultAnimationDirectionStrategy: HeroDefaultAnimationType.Strategy = .forceLeftToRight
